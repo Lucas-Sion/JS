@@ -15,3 +15,9 @@ Estrutura de Repetição - LOOP
                 Seu código aqui
             }
 */
+
+const users = ['Maria', 'Aline', 'João'] // lenght(tamanho do array) = 3
+
+for(let i = 0; i < users.length; i++) {
+    console.log(users[i])
+}
